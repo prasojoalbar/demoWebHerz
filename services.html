@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services | PT Herz Consultant Indonesia</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['Inter', 'sans-serif'] },
+                    colors: { herzBlue: '#1e3a8a', herzOrange: '#f97316' }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans pt-24">
+
+    <nav class="fixed top-0 w-full z-50 bg-white border-b border-gray-200 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between h-20 items-center">
+            <a href="index.html" class="flex-shrink-0 flex items-center group">
+                <img 
+                    src="assets/logos/logo-herz.png" 
+                    alt="Logo PT Herz Consultant" 
+                    class="h-16 w-auto transform transition-all duration-300 ease-in-out group-hover:scale-105 group-hover:drop-shadow-lg filter drop-shadow-sm">
+            </a>
+            <div class="hidden md:flex space-x-8">
+                <a href="about.html" class="font-semibold text-gray-600 hover:text-herzBlue transition">About</a>
+                <a href="services.html" class="font-semibold text-herzBlue transition">Services</a>
+                <a href="portfolio.html" class="font-semibold text-gray-600 hover:text-herzBlue transition">Portfolio</a>
+            </div>
+            <a href="mailto:info@herzindonesia.com" class="hidden md:block bg-herzBlue text-white px-6 py-2.5 rounded-sm font-bold hover:bg-blue-900 transition">Get in Touch</a>
+        </div>
+    </nav>
+
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 min-h-screen">
+        <h1 class="text-4xl font-extrabold text-herzBlue mb-2">Layanan Kami</h1>
+        <p class="text-gray-600 mb-12">Detail solusi komprehensif untuk industri dan laboratorium Anda.</p>
+
+        <div class="grid md:grid-cols-2 gap-8">
+            <div class="bg-white p-8 rounded-sm border-t-4 border-herzOrange shadow-md">
+                <h2 class="text-2xl font-bold text-slate-900 mb-4">Pengadaan & Perbaikan CEMS</h2>
+                <ul class="space-y-3 text-gray-600">
+                    <li>✔ Penyediaan Gas Analyzer & Dust Monitor </li>
+                    <li>✔ Instalasi sistem CEMS sesuai standar </li>
+                    <li>✔ Pengujian RATA dan RCA CEMS </li>
+                </ul>
+            </div>
+
+            <div class="bg-white p-8 rounded-sm border border-gray-200 shadow-sm">
+                <h2 class="text-2xl font-bold text-slate-900 mb-4">Kalibrasi Alat</h2>
+                <ul class="space-y-3 text-gray-600">
+                    <li>✔ Kalibrasi Gas Analyzer & Particulate </li>
+                    <li>✔ Kalibrasi Flow Meter & Pressure Gauge </li>
+                    <li>✔ Kalibrasi Sound Level Meter & Lux Meter </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-herzBlue text-white py-12 mt-12">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <p class="text-blue-200 text-sm">© 2026 PT Herz Consultant Indonesia. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

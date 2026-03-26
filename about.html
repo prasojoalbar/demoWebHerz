@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | PT Herz Consultant Indonesia</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: { fontFamily: { sans: ['Inter', 'sans-serif'] }, colors: { herzBlue: '#1e3a8a', herzOrange: '#f97316' } }
+            }
+        }
+    </script>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans pt-24">
+
+    <nav class="fixed top-0 w-full z-50 bg-white border-b border-gray-200 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between h-20 items-center">
+            <a href="index.html" class="flex-shrink-0 flex items-center group">
+                <img 
+                    src="assets/logos/logo-herz.png" 
+                    alt="Logo PT Herz Consultant" 
+                    class="h-16 w-auto transform transition-all duration-300 ease-in-out group-hover:scale-105 group-hover:drop-shadow-lg filter drop-shadow-sm">
+            </a>
+            <div class="hidden md:flex space-x-8">
+                <a href="about.html" class="font-semibold text-herzBlue transition">About</a>
+                <a href="services.html" class="font-semibold text-gray-600 hover:text-herzBlue transition">Services</a>
+                <a href="portfolio.html" class="font-semibold text-gray-600 hover:text-herzBlue transition">Portfolio</a>
+            </div>
+            <a href="mailto:info@herzindonesia.com" class="hidden md:block bg-herzBlue text-white px-6 py-2.5 rounded-sm font-bold hover:bg-blue-900 transition">Get in Touch</a>
+        </div>
+    </nav>
+
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 min-h-screen">
+        <div class="mb-16">
+            <h1 class="text-4xl font-extrabold text-herzBlue mb-6">Tentang PT Herz Consultant Indonesia</h1>
+            <p class="text-lg text-gray-700 leading-relaxed mb-4">
+                HERZ Consultant Indonesia adalah perusahaan swasta yang bergerak di bidang pemantauan dan pengujian lingkungan serta konsultasi ISO QHSE.
+            </p>
+            <p class="text-lg text-gray-700 leading-relaxed">
+                Didukung oleh tim berpengalaman lebih dari 10 tahun dan tersertifikasi SKKNI, serta menggunakan peralatan berstandar SNI dan US EPA yang terkalibrasi[cite: 30]. Tenaga ahli kami memiliki sertifikasi resmi seperti AK3U (Ahli K3 Umum), PPCE, dan PPCL.
+            </p>
+        </div>
+
+        <div>
+            <h2 class="text-3xl font-bold text-slate-900 mb-8 border-b-2 border-herzOrange inline-block pb-2">5 Pilar Filosofi Kami</h2>
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="bg-white p-6 shadow-sm border border-gray-100 rounded-sm">
+                    <h3 class="font-bold text-herzOrange mb-2">1. Kepatuhan sebagai Komitmen</h3>
+                    <p class="text-gray-600 text-sm">Mematuhi regulasi lingkungan yang berlaku, baik nasional maupun internasional.</p>
+                </div>
+                <div class="bg-white p-6 shadow-sm border border-gray-100 rounded-sm">
+                    <h3 class="font-bold text-herzOrange mb-2">2. Kemitraan yang Kolaboratif</h3>
+                    <p class="text-gray-600 text-sm">Memandang laboratorium lingkungan sebagai mitra strategis untuk mencapai standar mutu.</p>
+                </div>
+                <div class="bg-white p-6 shadow-sm border border-gray-100 rounded-sm">
+                    <h3 class="font-bold text-herzOrange mb-2">3. Aksesibilitas Teknologi</h3>
+                    <p class="text-gray-600 text-sm">Ketersediaan peralatan dan suku cadang lokal yang terjangkau tanpa mengorbankan spesifikasi.</p>
+                </div>
+                <div class="bg-white p-6 shadow-sm border border-gray-100 rounded-sm">
+                    <h3 class="font-bold text-herzOrange mb-2">4. Layanan Profesional</h3>
+                    <p class="text-gray-600 text-sm">Layanan pemantauan akurat didukung teknisi berpengalaman.</p>
+                </div>
+                <div class="bg-white p-6 shadow-sm border border-gray-100 rounded-sm md:col-span-2">
+                    <h3 class="font-bold text-herzOrange mb-2">5. Inovasi Berbasis Regulasi</h3>
+                    <p class="text-gray-600 text-sm">Mengembangkan alat dan solusi baru dengan landasan perkembangan regulasi.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-herzBlue text-white py-12 mt-12">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <p class="text-blue-200 text-sm">© 2026 PT Herz Consultant Indonesia. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
